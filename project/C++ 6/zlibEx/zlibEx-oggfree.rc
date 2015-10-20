@@ -1,0 +1,39 @@
+#include <winver.h>
+#include "..\..\..\include\zlibEx\zlibEx.h"
+
+#ifdef GCC_WINDRES
+VS_VERSION_INFO		VERSIONINFO
+#else
+VS_VERSION_INFO		VERSIONINFO	MOVEABLE IMPURE LOADONCALL DISCARDABLE
+#endif
+  FILEVERSION		ZLIBEX_VER_MAJOR,ZLIBEX_VER_MINOR,ZLIBEX_VER_REVISION,ZLIBEX_VER_SUBREVISION
+  PRODUCTVERSION	ZLIBEX_VER_MAJOR,ZLIBEX_VER_MINOR,ZLIBEX_VER_REVISION,ZLIBEX_VER_SUBREVISION
+  FILEFLAGSMASK		VS_FFI_FILEFLAGSMASK
+#ifdef _DEBUG
+  FILEFLAGS		1
+#else
+  FILEFLAGS		0
+#endif
+  FILEOS		VOS__WINDOWS32
+  FILETYPE		VFT_DLL
+  FILESUBTYPE		0	// not used
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904b0"
+    BEGIN
+      VALUE "FileDescription",	"zlibEx data & PNG compression, ZIP, PNG, & JPEG file I/O library\0"
+      VALUE "FileVersion",	ZLIBEX_VERSION "\0"
+      VALUE "InternalName",	"zlibEx.dll\0"
+      VALUE "LegalCopyright",	"(C) 2015 Sean Hunt\0"
+      VALUE "OriginalFilename",	"zlibEx.dll\0"
+      VALUE "ProductName",	"zlib Extended\0"
+      VALUE "ProductVersion",	ZLIBEX_VERSION "\0"
+      VALUE "Comments",		"Includes and combines sources from zlib, libpng, & libjpeg into a project in C++ 6. The latest Version of zlib's source was converted to the C++ 6 project though and renamed to start out the zlib Extended Project.\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 1200
+  END
+END
