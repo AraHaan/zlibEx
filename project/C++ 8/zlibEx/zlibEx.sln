@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlibEx", "zlibEx.vcproj", "{6CD4B194-5357-4301-BFCE-671BE5331F61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		jpeg free Release|Win32 = jpeg free Release|Win32
+		ogg free Release|Win32 = ogg free Release|Win32
+		png free Release|Win32 = png free Release|Win32
+		Release|Win32 = Release|Win32
+		xml free Release|Win32 = xml free Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CD4B194-5357-4301-BFCE-671BE5331F61}.jpeg free Release|Win32.ActiveCfg = jpeg free Release|Win32
+		{6CD4B194-5357-4301-BFCE-671BE5331F61}.jpeg free Release|Win32.Build.0 = jpeg free Release|Win32
+		{6CD4B194-5357-4301-BFCE-671BE5331F61}.ogg free Release|Win32.ActiveCfg = ogg free Release|Win32
+		{6CD4B194-5357-4301-BFCE-671BE5331F61}.ogg free Release|Win32.Build.0 = ogg free Release|Win32
+		{6CD4B194-5357-4301-BFCE-671BE5331F61}.png free Release|Win32.ActiveCfg = png free Release|Win32
+		{6CD4B194-5357-4301-BFCE-671BE5331F61}.png free Release|Win32.Build.0 = png free Release|Win32
+		{6CD4B194-5357-4301-BFCE-671BE5331F61}.Release|Win32.ActiveCfg = Release|Win32
+		{6CD4B194-5357-4301-BFCE-671BE5331F61}.Release|Win32.Build.0 = Release|Win32
+		{6CD4B194-5357-4301-BFCE-671BE5331F61}.xml free Release|Win32.ActiveCfg = xml free Release|Win32
+		{6CD4B194-5357-4301-BFCE-671BE5331F61}.xml free Release|Win32.Build.0 = xml free Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

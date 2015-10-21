@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjpegdynamic", "libjpeg-dynamic.vcproj", "{F7DB8061-57D6-4CB4-818E-C434F6EEE99A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7DB8061-57D6-4CB4-818E-C434F6EEE99A}.Release|Win32.ActiveCfg = Release|Win32
+		{F7DB8061-57D6-4CB4-818E-C434F6EEE99A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
